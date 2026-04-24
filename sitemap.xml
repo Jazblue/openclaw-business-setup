@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://jazblue.github.io/openclaw-business-setup/</loc>
-  </url>
-  <url>
-    <loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-for-small-businesses.html</loc>
-  </url>
-  <url>
-    <loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-setup-uk.html</loc>
-  </url>
-  <url>
-    <loc>https://jazblue.github.io/openclaw-business-setup/pages/ai-assistant-for-business-operations.html</loc>
-  </url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/ai-assistant-for-business-operations.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-ai-assistant-setup.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-business-admin-automation.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-business-workflows.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-consultant.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-enquiry-automation.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-for-business-owners.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-for-customer-support.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-for-internal-knowledge.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-for-operations-teams.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-for-service-businesses.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-for-small-businesses.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-installation-service.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-knowledge-base-setup.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-setup-consultant-uk.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-setup-help.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-setup-service.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-setup-uk.html</loc></url>
+  <url><loc>https://jazblue.github.io/openclaw-business-setup/pages/openclaw-workflow-automation-small-business.html</loc></url>
 </urlset>
