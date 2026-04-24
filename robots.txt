@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jazblue.github.io/openclaw-business-setup/sitemap.xml
