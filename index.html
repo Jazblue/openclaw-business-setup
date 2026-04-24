@@ -3,95 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OpenClaw Business Setup | OpenClaw for Businesses, AI Assistants and Workflow Setup</title>
-  <meta name="description" content="OpenClaw business setup for companies that want practical AI assistants, workflow automation, knowledge bases, enquiry handling and business-ready OpenClaw installation." />
-  <meta name="keywords" content="OpenClaw business setup, OpenClaw for businesses, OpenClaw setup service, business AI assistant setup, workflow automation setup, knowledge base setup, enquiry automation" />
-  <meta property="og:title" content="OpenClaw Business Setup | Jays AI Agents" />
-  <meta property="og:description" content="Practical OpenClaw business setup, including AI assistant installation, workflow support, knowledge bases and enquiry systems." />
+  <title>Jays AI Agents | Private AI systems for businesses that want less admin and faster response</title>
+  <meta name="description" content="Jays AI Agents sets up private AI systems, OpenClaw workflows, enquiry handling, and internal knowledge support for businesses that want practical automation without bloated software." />
+  <meta property="og:title" content="Jays AI Agents | Private AI systems for businesses" />
+  <meta property="og:description" content="Reduce admin, improve response time, and organise internal knowledge with practical AI systems built around your business." />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="OpenClaw Setup for Businesses | Jays AI Agents" />
-  <meta name="twitter:description" content="OpenClaw setup for businesses, plus practical AI systems for enquiries, knowledge and workflow support." />
+  <meta name="twitter:title" content="Jays AI Agents | Private AI systems for businesses" />
+  <meta name="twitter:description" content="Practical AI setup for businesses that want cleaner workflows, faster response, and less admin drag." />
   <link rel="canonical" href="https://jazblue.github.io/openclaw-business-setup/" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "ProfessionalService",
-        "name": "Jays AI Agents",
-        "url": "https://jazblue.github.io/openclaw-business-setup/",
-        "description": "OpenClaw business setup for companies that want AI assistant installation, knowledge bases, enquiry handling and practical workflow support.",
-        "areaServed": "United Kingdom",
-        "serviceType": [
-          "OpenClaw setup",
-          "Business AI assistant setup",
-          "Knowledge base setup",
-          "Enquiry workflow setup"
-        ],
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+44 7306 045705",
-          "contactType": "sales",
-          "areaServed": "GB"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Can you set up OpenClaw on my computer?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. OpenClaw setup is one of the main services offered, so you can get a practical AI assistant running locally on your machine."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can you help a business use OpenClaw properly?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. The service is aimed at businesses that want OpenClaw set up around real use cases like enquiries, knowledge access, internal support, and day to day workflow help."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can it be set up for remote access too?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, where it makes sense. Some setups work best locally on your own computer, while others can be configured so they are easier to reach remotely. The best fit depends on your workflow and security needs."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is this suitable for real businesses, not just hobby users?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. The point is to shape OpenClaw and related systems around real business use, such as handling enquiries, organising information, supporting admin, and reducing repetitive tasks."
-            }
-          }
-        ]
-      }
-    ]
-  }
-  </script>
   <style>
     :root {
-      --bg: #0a1020;
-      --bg2: #111b36;
-      --panel: rgba(11, 18, 38, 0.82);
-      --panel-strong: rgba(16, 24, 47, 0.96);
-      --line: rgba(154, 168, 201, 0.18);
-      --text: #edf2ff;
-      --muted: #aab5d7;
-      --brand: #7c9cff;
-      --brand-2: #58d5bf;
-      --ok: #79e29e;
-      --wa: #25d366;
-      --wa-dark: #128c7e;
-      --shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
-      --radius-lg: 22px;
+      --bg: #081120;
+      --bg2: #0d1830;
+      --panel: rgba(13, 22, 41, 0.9);
+      --panel-2: rgba(18, 29, 54, 0.96);
+      --line: rgba(166, 180, 214, 0.16);
+      --text: #edf3ff;
+      --muted: #aab7d6;
+      --brand: #7ca2ff;
+      --brand-2: #55d2bb;
+      --ok: #7be0a2;
+      --warm: #ffca7a;
+      --shadow: 0 26px 80px rgba(0, 0, 0, 0.34);
+      --radius-xl: 32px;
+      --radius-lg: 24px;
+      --radius-md: 18px;
       --max: 1180px;
     }
 
@@ -102,128 +39,473 @@
       font-family: Inter, Arial, sans-serif;
       color: var(--text);
       background:
-        radial-gradient(circle at top left, rgba(124,156,255,0.18), transparent 25%),
-        radial-gradient(circle at top right, rgba(88,213,191,0.14), transparent 22%),
-        linear-gradient(180deg, var(--bg) 0%, #0d152b 45%, var(--bg2) 100%);
+        radial-gradient(circle at top left, rgba(124,162,255,0.18), transparent 24%),
+        radial-gradient(circle at top right, rgba(85,210,187,0.14), transparent 20%),
+        linear-gradient(180deg, var(--bg) 0%, #0b1428 46%, var(--bg2) 100%);
     }
 
     a { color: inherit; text-decoration: none; }
     .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
+
     .nav {
-      position: sticky; top: 0; z-index: 20; backdrop-filter: blur(14px);
-      background: rgba(8, 12, 24, 0.72); border-bottom: 1px solid rgba(255,255,255,0.06);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(16px);
+      background: rgba(7, 11, 21, 0.76);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
     }
+
     .nav-inner {
-      width: min(var(--max), calc(100% - 32px)); margin: 0 auto; display: flex;
-      align-items: center; justify-content: space-between; gap: 18px; padding: 14px 0;
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 14px 0;
     }
-    .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: -0.02em; }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
     .brand-badge {
-      width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center;
-      background: linear-gradient(135deg, var(--brand), var(--brand-2)); color: white;
-      box-shadow: 0 14px 26px rgba(88, 213, 191, 0.2);
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      background: linear-gradient(135deg, var(--brand), var(--brand-2));
+      color: white;
+      box-shadow: 0 14px 26px rgba(85, 210, 187, 0.2);
     }
-    .nav-links { display: flex; align-items: center; gap: 18px; color: var(--muted); font-size: 0.96rem; }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
     .nav-links a:hover { color: var(--text); }
+
     .btn {
-      display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid transparent;
-      border-radius: 999px; padding: 13px 18px; font: inherit; font-weight: 800; cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      padding: 13px 18px;
+      font: inherit;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform 0.15s ease, opacity 0.15s ease;
     }
-    .btn-primary { background: linear-gradient(135deg, var(--brand), #4d73ff); color: white; box-shadow: 0 16px 28px rgba(77, 115, 255, 0.24); }
-    .btn-secondary { background: rgba(255,255,255,0.03); border-color: var(--line); color: var(--text); }
-    .btn-whatsapp { background: linear-gradient(135deg, var(--wa), var(--wa-dark)); color: white; box-shadow: 0 18px 32px rgba(37, 211, 102, 0.28); }
-    .btn:hover { transform: translateY(-1px); transition: 0.2s ease; }
-    .hero { padding: 52px 0 28px; }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--brand), #537cff);
+      color: white;
+      box-shadow: 0 16px 30px rgba(83, 124, 255, 0.24);
+    }
+
+    .btn-secondary {
+      background: rgba(255,255,255,0.03);
+      border-color: var(--line);
+      color: var(--text);
+    }
+
+    .hero { padding: 54px 0 26px; }
+
     .hero-card {
-      background: linear-gradient(135deg, rgba(124,156,255,0.12), rgba(88,213,191,0.07));
-      border: 1px solid var(--line); border-radius: 34px; box-shadow: var(--shadow); padding: 34px;
+      border: 1px solid var(--line);
+      border-radius: 34px;
+      background: linear-gradient(135deg, rgba(124,162,255,0.12), rgba(85,210,187,0.06));
+      box-shadow: var(--shadow);
+      padding: 34px;
+      position: relative;
+      overflow: hidden;
     }
+
+    .hero-card::after {
+      content: "";
+      position: absolute;
+      right: -90px;
+      bottom: -90px;
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(124,162,255,0.22), transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 24px;
+      align-items: center;
+    }
+
     .eyebrow {
-      display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 999px;
-      border: 1px solid rgba(124,156,255,0.26); background: rgba(124,156,255,0.08); color: #dce6ff;
-      font-size: 0.84rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 16px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(124,162,255,0.22);
+      background: rgba(124,162,255,0.08);
+      color: #dbe7ff;
+      font-size: 0.84rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-bottom: 16px;
     }
-    .hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 24px; align-items: center; }
-    h1 { margin: 0 0 14px; font-size: clamp(2.4rem, 6vw, 4.8rem); line-height: 0.95; letter-spacing: -0.045em; max-width: 760px; }
-    .hero-copy { margin: 0 0 20px; color: var(--muted); font-size: 1.08rem; line-height: 1.72; max-width: 760px; }
-    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 18px; }
-    .hero-points { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 18px; }
-    .trust-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 0; }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(2.6rem, 6vw, 4.9rem);
+      line-height: 0.95;
+      letter-spacing: -0.045em;
+      max-width: 780px;
+    }
+
+    .hero-copy {
+      margin: 0 0 20px;
+      color: var(--muted);
+      font-size: 1.08rem;
+      line-height: 1.72;
+      max-width: 760px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .trust-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
     .trust-pill {
-      display: inline-flex; align-items: center; gap: 8px; padding: 10px 12px; border-radius: 999px;
-      border: 1px solid var(--line); background: rgba(255,255,255,0.03); color: #dce6ff; font-size: 0.9rem; font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.03);
+      color: #deebff;
+      font-size: 0.9rem;
+      font-weight: 700;
     }
-    .mini { border: 1px solid var(--line); background: rgba(9, 14, 31, 0.52); border-radius: 18px; padding: 14px; }
-    .mini .kicker { color: var(--muted); font-size: 0.8rem; margin-bottom: 6px; }
-    .mini .value { font-size: 1.05rem; font-weight: 800; letter-spacing: -0.02em; }
-    .hero-panel { border: 1px solid var(--line); background: var(--panel-strong); border-radius: 24px; padding: 22px; }
-    .hero-panel h2 { margin: 0 0 12px; font-size: 1.2rem; }
-    .checklist { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
-    .checklist li { display: flex; gap: 10px; align-items: flex-start; line-height: 1.6; }
-    .dot {
-      width: 24px; height: 24px; flex: 0 0 24px; border-radius: 50%; display: grid; place-items: center;
-      background: rgba(121, 226, 158, 0.12); color: var(--ok); font-size: 0.9rem; margin-top: 1px;
+
+    .hero-panel {
+      border: 1px solid var(--line);
+      background: var(--panel-2);
+      border-radius: 24px;
+      padding: 22px;
     }
-    section { padding: 26px 0; }
-    .section-head { max-width: 760px; margin-bottom: 18px; }
-    .section-head h2 { margin: 0 0 10px; font-size: clamp(1.8rem, 3vw, 2.6rem); letter-spacing: -0.03em; }
-    .section-head p { margin: 0; color: var(--muted); line-height: 1.7; }
-    .grid-3, .grid-2 { display: grid; gap: 16px; }
+
+    .hero-panel h2 {
+      margin: 0 0 14px;
+      font-size: 1.22rem;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-metrics {
+      display: grid;
+      gap: 12px;
+    }
+
+    .metric {
+      border: 1px solid rgba(255,255,255,0.06);
+      background: rgba(255,255,255,0.02);
+      border-radius: 18px;
+      padding: 14px;
+    }
+
+    .metric-label {
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-bottom: 6px;
+    }
+
+    .metric-value {
+      font-size: 1.02rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    section { padding: 28px 0; }
+
+    .section-head {
+      max-width: 760px;
+      margin-bottom: 18px;
+    }
+
+    .section-head h2 {
+      margin: 0 0 10px;
+      font-size: clamp(1.9rem, 3vw, 2.7rem);
+      letter-spacing: -0.03em;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .grid-3, .grid-2 {
+      display: grid;
+      gap: 16px;
+    }
+
     .grid-3 { grid-template-columns: repeat(3, 1fr); }
     .grid-2 { grid-template-columns: repeat(2, 1fr); }
-    .card { border: 1px solid var(--line); background: var(--panel); border-radius: var(--radius-lg); box-shadow: var(--shadow); padding: 22px; }
-    .card h3 { margin: 0 0 10px; font-size: 1.15rem; letter-spacing: -0.02em; }
+
+    .card {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 1.14rem;
+      letter-spacing: -0.02em;
+    }
+
     .card p, .card li { line-height: 1.7; }
-    .problem { border-left: 4px solid #ff7b8b; }
-    .outcome { border-left: 4px solid var(--brand-2); }
-    .process-step { position: relative; padding-top: 46px; }
+    .muted, .fine { color: var(--muted); }
+
+    .proof-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .proof-item {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.03);
+      border-radius: 18px;
+      padding: 16px;
+    }
+
+    .proof-item strong {
+      display: block;
+      margin-bottom: 6px;
+      letter-spacing: -0.01em;
+    }
+
+    .step {
+      position: relative;
+      padding-top: 44px;
+    }
+
     .step-num {
-      position: absolute; top: 18px; left: 22px; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center;
-      background: rgba(124,156,255,0.14); color: #dce6ff; font-weight: 800;
+      position: absolute;
+      top: 18px;
+      left: 22px;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: rgba(124,162,255,0.14);
+      color: #dce7ff;
+      font-weight: 800;
     }
-    .pricing { display: grid; grid-template-columns: 1fr 1.1fr; gap: 18px; align-items: start; }
+
+    .showcase {
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .showcase-panel {
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: linear-gradient(180deg, rgba(17, 27, 50, 0.98), rgba(10, 18, 35, 0.98));
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    .ui-mock {
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.03);
+      border-radius: 22px;
+      padding: 18px;
+      display: grid;
+      gap: 14px;
+      min-height: 100%;
+    }
+
+    .ui-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+
+    .bubble {
+      border-radius: 18px;
+      padding: 14px 16px;
+      line-height: 1.6;
+      max-width: 92%;
+    }
+
+    .bubble.a {
+      background: rgba(124,162,255,0.14);
+      border: 1px solid rgba(124,162,255,0.16);
+    }
+
+    .bubble.b {
+      background: rgba(85,210,187,0.1);
+      border: 1px solid rgba(85,210,187,0.14);
+      margin-left: auto;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      padding: 8px 10px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.06);
+      font-size: 0.86rem;
+      color: #d8e5ff;
+    }
+
+    .pricing {
+      display: grid;
+      grid-template-columns: 1fr 1.1fr;
+      gap: 18px;
+      align-items: start;
+    }
+
     .price-box {
-      border: 1px solid var(--line); background: linear-gradient(180deg, rgba(124,156,255,0.12), rgba(15,22,42,0.92));
-      border-radius: 24px; padding: 24px; box-shadow: var(--shadow);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: linear-gradient(180deg, rgba(124,162,255,0.12), rgba(15,22,42,0.94));
+      box-shadow: var(--shadow);
+      padding: 24px;
     }
-    .price { font-size: 3rem; font-weight: 900; letter-spacing: -0.05em; margin: 8px 0 6px; }
-    .fine, .muted { color: var(--muted); }
-    .faq details { border: 1px solid var(--line); background: rgba(11, 18, 38, 0.72); border-radius: 18px; padding: 16px 18px; }
+
+    .price {
+      font-size: 3rem;
+      font-weight: 900;
+      letter-spacing: -0.05em;
+      margin: 8px 0 6px;
+    }
+
+    .faq details {
+      border: 1px solid var(--line);
+      background: rgba(11, 18, 38, 0.72);
+      border-radius: 18px;
+      padding: 16px 18px;
+    }
+
     .faq details + details { margin-top: 12px; }
-    .faq summary { cursor: pointer; font-weight: 800; list-style: none; }
+    .faq summary {
+      cursor: pointer;
+      font-weight: 800;
+      list-style: none;
+    }
     .faq summary::-webkit-details-marker { display: none; }
-    .faq details p { margin: 12px 0 0; color: var(--muted); line-height: 1.7; }
-    .cta { padding-bottom: 60px; }
+    .faq details p {
+      margin: 12px 0 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
     .cta-box {
-      border: 1px solid var(--line); background: linear-gradient(135deg, rgba(124,156,255,0.14), rgba(88,213,191,0.08));
-      border-radius: 30px; padding: 28px; box-shadow: var(--shadow); display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 18px; align-items: center;
+      border: 1px solid var(--line);
+      background: linear-gradient(135deg, rgba(124,162,255,0.14), rgba(85,210,187,0.07));
+      border-radius: 30px;
+      box-shadow: var(--shadow);
+      padding: 28px;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 18px;
+      align-items: center;
     }
-    .contact-card { border: 1px solid var(--line); background: rgba(8, 13, 28, 0.6); border-radius: 22px; padding: 20px; }
-    .contact-card p { line-height: 1.7; }
-    .contact-list { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 10px; }
-    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-    .field { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
-    .field.full { grid-column: 1 / -1; }
-    label { font-weight: 700; font-size: 0.94rem; color: #f3f6ff; }
-    input, select, textarea {
-      width: 100%; border: 1px solid rgba(148, 163, 184, 0.18); border-radius: 16px; padding: 14px 15px;
-      font: inherit; color: var(--text); background: rgba(6, 12, 26, 0.65);
+
+    .contact-card {
+      border: 1px solid var(--line);
+      background: rgba(8, 13, 28, 0.6);
+      border-radius: 22px;
+      padding: 20px;
     }
-    textarea { min-height: 120px; resize: vertical; line-height: 1.6; }
+
+    .contact-list {
+      list-style: none;
+      padding: 0;
+      margin: 14px 0 0;
+      display: grid;
+      gap: 10px;
+    }
+
     .contact-list li {
-      border: 1px solid rgba(255,255,255,0.06); border-radius: 16px; padding: 12px 14px; background: rgba(255,255,255,0.02);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 16px;
+      padding: 12px 14px;
+      background: rgba(255,255,255,0.02);
     }
-    footer { border-top: 1px solid rgba(255,255,255,0.06); color: var(--muted); padding: 22px 0 40px; font-size: 0.94rem; }
+
+    footer {
+      border-top: 1px solid rgba(255,255,255,0.06);
+      color: var(--muted);
+      padding: 22px 0 40px;
+      font-size: 0.94rem;
+    }
 
     @media (max-width: 980px) {
-      .hero-grid, .grid-3, .grid-2, .pricing, .cta-box { grid-template-columns: 1fr; }
-      .hero-points { grid-template-columns: 1fr; }
+      .hero-grid,
+      .grid-3,
+      .grid-2,
+      .proof-strip,
+      .pricing,
+      .showcase,
+      .cta-box {
+        grid-template-columns: 1fr;
+      }
+
       .nav-inner { flex-wrap: wrap; }
-      .nav-links { width: 100%; flex-wrap: wrap; justify-content: flex-start; }
+      .nav-links {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+      }
     }
 
     @media (max-width: 640px) {
-      .hero-card, .card, .price-box, .cta-box, .hero-panel { padding: 20px; }
+      .hero-card, .card, .price-box, .cta-box, .hero-panel, .showcase-panel { padding: 20px; }
       h1 { font-size: 2.4rem; }
       .btn { width: 100%; }
       .hero-actions { flex-direction: column; }
@@ -254,90 +536,48 @@
         <div class="hero-card">
           <div class="hero-grid">
             <div>
-              <div class="eyebrow">OpenClaw setup for real businesses</div>
-              <h1>OpenClaw business setup for companies that want practical AI assistants, workflows and knowledge systems.</h1>
-              <p class="hero-copy">Jays AI Agents helps businesses install and shape OpenClaw into something genuinely useful. That can mean an AI assistant on your own machine, a smarter enquiry flow, a business knowledge base, or a practical internal system that saves time instead of creating more admin. If you are searching for OpenClaw business setup or OpenClaw for businesses, this site is built around that exact need.</p>
+              <div class="eyebrow">Private AI support built around real business workflows</div>
+              <h1>Reduce admin, improve response time, and give your business an AI system that actually gets used.</h1>
+              <p class="hero-copy">Jays AI Agents helps small businesses set up OpenClaw and related AI systems around real work: handling enquiries, organising internal knowledge, supporting repetitive admin, and making day-to-day operations feel less clunky. This is not a gimmick site. It is practical setup for businesses that want calmer operations and cleaner follow-through.</p>
               <div class="hero-actions">
-                <a href="https://wa.me/447306045705?text=Hi%20Jason%2C%20I%27m%20interested%20in%20Jays%20AI%20Agents" target="_blank" rel="noopener" class="btn btn-whatsapp">WhatsApp Jason</a>
-                <a href="#services" class="btn btn-secondary">See services</a>
-                <a href="#discord" class="btn btn-secondary">Try the Discord bot</a>
-                <a href="#enquiry" class="btn btn-secondary">Private enquiry form</a>
+                <a href="./pages/contact.html" class="btn btn-primary">Get a quote</a>
+                <a href="./pages/services.html" class="btn btn-secondary">See services</a>
               </div>
               <div class="trust-row">
-                <span class="trust-pill">✓ Direct contact with Jason</span>
-                <span class="trust-pill">✓ Local or remote setup options</span>
-                <span class="trust-pill">✓ Built for practical day to day use</span>
-              </div>
-              <div class="hero-points">
-                <div class="mini"><div class="kicker">Main service</div><div class="value">OpenClaw setup for business use</div></div>
-                <div class="mini"><div class="kicker">Setup</div><div class="value">Local install or remote-friendly setup</div></div>
-                <div class="mini"><div class="kicker">Best for</div><div class="value">Businesses wanting practical AI, not gimmicks</div></div>
+                <span class="trust-pill">✓ Direct with Jason</span>
+                <span class="trust-pill">✓ UK-based small business support</span>
+                <span class="trust-pill">✓ Private, low-friction setup options</span>
               </div>
             </div>
             <aside class="hero-panel">
-              <h2>What this OpenClaw setup can help with</h2>
-              <ul class="checklist">
-                <li><span class="dot">✓</span><span>Installing OpenClaw properly for business use.</span></li>
-                <li><span class="dot">✓</span><span>Shaping OpenClaw around real workflows instead of leaving it as a demo.</span></li>
-                <li><span class="dot">✓</span><span>Using OpenClaw to support knowledge access, enquiries, and repetitive admin.</span></li>
-                <li><span class="dot">✓</span><span>Getting a practical AI assistant running locally or with remote-friendly access.</span></li>
-              </ul>
+              <h2>What this is built to improve</h2>
+              <div class="hero-metrics">
+                <div class="metric">
+                  <div class="metric-label">Enquiries</div>
+                  <div class="metric-value">Cleaner handling, less chasing, faster follow-up</div>
+                </div>
+                <div class="metric">
+                  <div class="metric-label">Knowledge</div>
+                  <div class="metric-value">Internal answers and business information made easier to reuse</div>
+                </div>
+                <div class="metric">
+                  <div class="metric-label">Admin</div>
+                  <div class="metric-value">Practical support for repetitive tasks and workflow drag</div>
+                </div>
+              </div>
             </aside>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="problems">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Problems this helps solve</h2>
-          <p>A lot of businesses know AI could help, but they do not want complexity, hype, or expensive custom software. The aim here is to get OpenClaw and related systems doing useful work: reducing admin, improving response times, and making business information easier to use properly.</p>
-        </div>
-        <div class="grid-3">
-          <article class="card problem"><h3>Too much admin</h3><p>If too much time is spent chasing enquiries, replying manually, or repeating the same tasks, practical automation can take pressure off fast.</p></article>
-          <article class="card problem"><h3>Messy information</h3><p>When important business information is scattered across notes, chats, and documents, a proper knowledge setup makes it easier to find and use what matters.</p></article>
-          <article class="card problem"><h3>No practical OpenClaw setup</h3><p>A lot of business owners like the idea of AI help but do not know how to get OpenClaw installed, shaped, and running in a way that actually supports the business.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="services">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>What is included in OpenClaw business setup</h2>
-          <p>This is still one core service: OpenClaw setup for business use. The supporting pieces below are not random extras. They are the kinds of practical business outcomes a good OpenClaw setup can support.</p>
-        </div>
-        <div class="grid-3">
-          <article class="card outcome"><h3>OpenClaw installation and configuration</h3><p>Installing, configuring, and shaping OpenClaw so it supports real business tasks instead of sitting there like a demo.</p></article>
-          <article class="card outcome"><h3>Knowledge access and internal support</h3><p>Using OpenClaw to help a business organise information, reuse internal answers, and make documents and processes easier to work with.</p></article>
-          <article class="card outcome"><h3>Enquiry and workflow support</h3><p>Using OpenClaw around enquiries, follow-up, admin support, and practical day to day workflow assistance.</p></article>
-        </div>
-      </div>
-    </section>
-
     <section>
       <div class="wrap">
-        <div class="grid-2">
-          <article class="card">
-            <h3>What you get from proper OpenClaw setup</h3>
-            <ul>
-              <li>OpenClaw set up around what the business actually needs.</li>
-              <li>A practical AI assistant instead of a half-finished experiment.</li>
-              <li>Clearer support for knowledge, enquiries, and repetitive admin.</li>
-              <li>Help setting up OpenClaw locally, with remote access options if needed.</li>
-              <li>A straightforward, non-technical approach where possible.</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>What this is not</h3>
-            <ul>
-              <li>Bloated tech projects with no practical use.</li>
-              <li>Confusing AI jargon for the sake of sounding clever.</li>
-              <li>A generic AI demo with no business workflow behind it.</li>
-              <li>Pressure into expensive systems you do not need.</li>
-            </ul>
-          </article>
+        <div class="proof-strip">
+          <div class="proof-item"><strong>Private by default</strong><span class="muted">A better fit for businesses that do not want to throw process and information into random public tools.</span></div>
+          <div class="proof-item"><strong>Built around your workflow</strong><span class="muted">Setup is shaped around how the business already runs, not around generic AI demos.</span></div>
+          <div class="proof-item"><strong>Small-business friendly</strong><span class="muted">Designed for sensible first steps, lighter budgets, and practical wins.</span></div>
+          <div class="proof-item"><strong>Clear next step</strong><span class="muted">Quote-based work, direct contact, and a simple path from problem to setup.</span></div>
         </div>
       </div>
     </section>
@@ -345,13 +585,13 @@
     <section>
       <div class="wrap">
         <div class="section-head">
-          <h2>What OpenClaw setup can actually do for a business</h2>
-          <p>Businesses looking for OpenClaw setup usually want a practical use case, not just installation. A business-ready OpenClaw setup can help with internal knowledge access, enquiry handling, admin support, task coordination, and lightweight workflow automation.</p>
+          <h2>What this can do in practice</h2>
+          <p>The strongest AI setups are not the flashiest ones. They are the ones that quietly remove friction from work people already do every day.</p>
         </div>
         <div class="grid-3">
-          <article class="card outcome"><h3>Internal knowledge and answers</h3><p>OpenClaw can help businesses organise internal information so answers, documents, and processes are easier to search and reuse.</p></article>
-          <article class="card outcome"><h3>Enquiry and lead handling</h3><p>OpenClaw can support lead capture, initial response flows, follow-up support, and cleaner enquiry handling around a small team or operator workflow.</p></article>
-          <article class="card outcome"><h3>Operational support</h3><p>OpenClaw can be shaped into a practical business assistant that supports repetitive admin, reminders, simple coordination, and day to day information handling.</p></article>
+          <article class="card"><h3>Enquiry handling</h3><p>Support lead capture, first response, follow-up flow, and cleaner handoff so enquiries do not feel scattered or slow.</p></article>
+          <article class="card"><h3>Internal knowledge</h3><p>Make important information, answers, and business processes easier to find, reuse, and work from.</p></article>
+          <article class="card"><h3>Operational support</h3><p>Reduce repetitive admin and give the business a more useful system for recurring internal tasks.</p></article>
         </div>
       </div>
     </section>
@@ -359,26 +599,39 @@
     <section>
       <div class="wrap">
         <div class="section-head">
-          <h2>Why businesses look for OpenClaw setup help</h2>
-          <p>Most businesses do not need more AI hype. They need someone to install OpenClaw properly, shape it around a workflow, and make sure it is actually useful. That is why OpenClaw setup for businesses is usually less about the software itself and more about turning it into a usable operating system for the business.</p>
+          <h2>How projects usually start</h2>
+          <p>Keep it simple first. The goal is to solve the first obvious bottleneck properly, then expand from something that already works.</p>
         </div>
-        <div class="grid-2">
-          <article class="card"><h3>What businesses usually want</h3><ul><li>An OpenClaw setup that works reliably.</li><li>A practical AI assistant, not just a demo.</li><li>Help organising knowledge, tasks, or enquiries.</li><li>A system that saves time rather than adding more admin.</li></ul></article>
-          <article class="card"><h3>What usually goes wrong without help</h3><ul><li>OpenClaw gets installed but never shaped into a useful workflow.</li><li>Important business information stays messy.</li><li>The setup is too technical for the owner to maintain confidently.</li><li>The business ends up with AI tools but no real operating value.</li></ul></article>
+        <div class="grid-3">
+          <article class="card step"><div class="step-num">1</div><h3>Find the friction</h3><p>We identify what feels clunky now — enquiries, knowledge access, repetitive admin, or workflow gaps.</p></article>
+          <article class="card step"><div class="step-num">2</div><h3>Shape the right setup</h3><p>Choose the simplest useful setup, whether that is OpenClaw, a supporting workflow, or a lightweight internal system.</p></article>
+          <article class="card step"><div class="step-num">3</div><h3>Get it working properly</h3><p>The result is something that fits the business, feels manageable, and does real work instead of becoming another half-finished tool.</p></article>
         </div>
       </div>
     </section>
 
-    <section id="process">
+    <section>
       <div class="wrap">
-        <div class="section-head">
-          <h2>How it works</h2>
-          <p>Simple on purpose. The goal is to understand what would actually help, then build the right thing without making it more complicated than it needs to be.</p>
-        </div>
-        <div class="grid-3">
-          <article class="card process-step"><div class="step-num">1</div><h3>Quick discovery</h3><p>You explain what the business does, where the admin or inefficiency is, and what sort of help would actually move the needle first.</p></article>
-          <article class="card process-step"><div class="step-num">2</div><h3>Right solution</h3><p>You get a clear recommendation on the best fit, whether that is OpenClaw setup, a knowledge base, an enquiry system, or a practical AI workflow for the business.</p></article>
-          <article class="card process-step"><div class="step-num">3</div><h3>Build and setup</h3><p>The tool is built and configured for practical use, with local setup, remote access guidance, and handover kept as simple as possible.</p></article>
+        <div class="showcase">
+          <div class="showcase-panel">
+            <div class="section-head">
+              <h2>Designed to feel useful, not experimental</h2>
+              <p>The best setup is the one that people actually use. That means clear outcomes, controlled scope, and systems that help the business run cleaner without turning into a software project for its own sake.</p>
+            </div>
+            <div class="tag-row">
+              <span class="tag">OpenClaw setup</span>
+              <span class="tag">Enquiry support</span>
+              <span class="tag">Knowledge access</span>
+              <span class="tag">Workflow improvement</span>
+            </div>
+          </div>
+          <div class="ui-mock">
+            <div class="ui-bar"><span>Example workflow</span><span>private setup</span></div>
+            <div class="bubble a">New enquiry received. Pull previous notes, summarise the request, and prepare a first response draft.</div>
+            <div class="bubble b">Summary prepared. Key details extracted. Suggested next step ready for review.</div>
+            <div class="bubble a">Find the latest internal answer for this pricing question and reuse the approved explanation.</div>
+            <div class="bubble b">Relevant internal answer found. Suggested response and follow-up action prepared.</div>
+          </div>
         </div>
       </div>
     </section>
@@ -386,128 +639,31 @@
     <section id="pricing">
       <div class="wrap">
         <div class="section-head">
-          <h2>Simple setup, low overhead</h2>
-          <p>The service is designed to stay practical. Lightweight delivery, sensible tooling, and flexible setup options help businesses get OpenClaw running properly without unnecessary overhead.</p>
+          <h2>Quote-based, because the right first step matters more than forcing a package</h2>
+          <p>The work can stay light and focused or become broader if needed. Pricing stays flexible so smaller projects do not get treated like enterprise software builds.</p>
         </div>
         <div class="pricing">
           <div class="price-box">
-            <div class="muted">Flexible pricing</div>
+            <div class="muted">Pricing approach</div>
             <div class="price">Custom</div>
-            <h3>Quote based</h3>
-            <p>Each job depends on what is needed, from straightforward OpenClaw setup to a more shaped business workflow built around OpenClaw.</p>
-            <p class="fine">That keeps quotes honest and lets smaller jobs stay simple instead of forcing everything into one package.</p>
+            <h3>Based on scope</h3>
+            <p>Some businesses need straightforward OpenClaw setup. Others need workflow shaping, enquiry support, knowledge systems, or ongoing refinement.</p>
+            <p class="fine">Best starting point: tell Jason what feels clunky now, and get a quote around the simplest useful version of the work.</p>
           </div>
           <div class="card">
             <h3>Good fit if</h3>
             <ul>
-              <li>You run a business and want practical AI help.</li>
-              <li>You want OpenClaw set up properly instead of just experimenting alone.</li>
-              <li>You need smarter information handling, enquiry capture, or task automation.</li>
-              <li>You prefer useful solutions over bloated software projects.</li>
+              <li>You want practical AI help, not just ideas.</li>
+              <li>You are trying to reduce admin and improve response flow.</li>
+              <li>You want something private, lighter weight, and more tailored than off-the-shelf clutter.</li>
             </ul>
-            <h3>Not ideal if</h3>
+            <h3>Less suitable if</h3>
             <ul>
-              <li>You want a huge enterprise software build.</li>
-              <li>You are after hype rather than practical results.</li>
-              <li>You need a massive agency team and a long procurement process.</li>
+              <li>You want a giant enterprise platform build.</li>
+              <li>You are looking for hype rather than a useful operating setup.</li>
+              <li>You want lots of moving parts before proving the basic value.</li>
             </ul>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="discord">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Try the Discord bot</h2>
-          <p>If you want to see the service in action, Discord is a useful demo space to test the bot, ask questions, and get a feel for how OpenClaw-style business support can work in practice.</p>
-        </div>
-        <div class="grid-2">
-          <article class="card outcome">
-            <h3>What the Discord bot can do</h3>
-            <ul>
-              <li>Answer basic questions about Jays AI Agents.</li>
-              <li>Explain services like OpenClaw setup, knowledge bases, enquiry systems, and AI assistants.</li>
-              <li>Guide someone through a simple enquiry flow.</li>
-              <li>Show what a practical business bot can feel like before buying anything.</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>Where Discord fits</h3>
-            <p>Discord is best used as a demo and test space, especially for people comfortable with tech. For direct business enquiries, WhatsApp, phone, and email are still the main routes.</p>
-            <p><strong>Discord invite:</strong> <a href="https://discord.gg/9azXSsgq" target="_blank" rel="noopener">https://discord.gg/9azXSsgq</a></p>
-            <p class="fine">Join the server to try the bot, ask questions, and see how a simple business assistant can work in practice.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="enquiry">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Private enquiry form</h2>
-          <p>If you want to share contact details or project information, it is better to do that through a private form rather than in a public Discord channel. This is the safer route for serious enquiries.</p>
-        </div>
-        <div class="grid-2">
-          <article class="card">
-            <h3>Send a private enquiry</h3>
-            <p class="muted">This form structure is ready to connect to a form service like Formspree. Once connected, it can send private enquiries straight to Jason without asking people to post personal details publicly.</p>
-            <form action="mailto:jasonmariakieran@gmail.com" method="post" enctype="text/plain">
-              <div class="form-grid">
-                <div class="field">
-                  <label for="name">Name</label>
-                  <input id="name" name="name" placeholder="Your name" />
-                </div>
-                <div class="field">
-                  <label for="business">Business name</label>
-                  <input id="business" name="business" placeholder="Your business name" />
-                </div>
-                <div class="field">
-                  <label for="email">Email address</label>
-                  <input id="email" name="email" type="email" placeholder="you@example.com" />
-                </div>
-                <div class="field">
-                  <label for="phone">Phone number</label>
-                  <input id="phone" name="phone" placeholder="Your phone number" />
-                </div>
-                <div class="field">
-                  <label for="need">What do you need help with?</label>
-                  <select id="need" name="need">
-                    <option>OpenClaw setup</option>
-                    <option>Business AI workflow</option>
-                    <option>Knowledge base</option>
-                    <option>Enquiry / lead system</option>
-                    <option>Something else</option>
-                  </select>
-                </div>
-                <div class="field">
-                  <label for="mode">Preferred setup</label>
-                  <select id="mode" name="mode">
-                    <option>Remote</option>
-                    <option>Local / in person</option>
-                    <option>Not sure yet</option>
-                  </select>
-                </div>
-                <div class="field full">
-                  <label for="message">Project details</label>
-                  <textarea id="message" name="message" placeholder="A short summary of what you want help with"></textarea>
-                </div>
-              </div>
-              <div class="hero-actions">
-                <button class="btn btn-primary" type="submit">Send private enquiry</button>
-              </div>
-              <p class="fine">This version opens the visitor's email app and drafts the enquiry to Jason. It is a lightweight option, but it still depends on the visitor having an email client set up.</p>
-            </form>
-          </article>
-          <article class="card">
-            <h3>Why use the form?</h3>
-            <ul>
-              <li>Better for privacy than posting contact details in Discord.</li>
-              <li>Cleaner for serious enquiries.</li>
-              <li>Easier to collect the right project information in one place.</li>
-              <li>A more professional route for business leads.</li>
-            </ul>
-          </article>
         </div>
       </div>
     </section>
@@ -516,15 +672,15 @@
       <div class="wrap">
         <div class="section-head">
           <h2>Core pages</h2>
-          <p>The site is now structured around a tighter set of pages with clearer jobs, stronger search intent, and less clutter.</p>
+          <p>The site is now built around a tighter set of pages with clearer jobs and a cleaner commercial flow.</p>
         </div>
         <div class="grid-3">
-          <article class="card outcome"><h3><a href="./pages/services.html">Services</a></h3><p>The core service offer, what is included, and the kinds of business problems this work solves.</p></article>
-          <article class="card outcome"><h3><a href="./pages/openclaw-setup-customisation.html">OpenClaw setup & customisation</a></h3><p>A dedicated page for businesses that specifically want OpenClaw installed, shaped, and configured properly.</p></article>
-          <article class="card outcome"><h3><a href="./pages/solutions.html">Solutions & use cases</a></h3><p>Use cases by business problem, workflow need, and practical AI support scenario.</p></article>
-          <article class="card outcome"><h3><a href="./pages/pricing.html">Pricing</a></h3><p>A simpler explanation of how quoting works and what affects cost.</p></article>
-          <article class="card outcome"><h3><a href="./pages/about.html">About & trust</a></h3><p>Why the business exists, how the work is approached, and why it stays practical.</p></article>
-          <article class="card outcome"><h3><a href="./pages/contact.html">Contact</a></h3><p>A clean route to contact Jason, ask questions, and request a quote.</p></article>
+          <article class="card"><h3><a href="./pages/services.html">Services</a></h3><p>The main commercial offer, what is included, and where the work creates value.</p></article>
+          <article class="card"><h3><a href="./pages/openclaw-setup-customisation.html">OpenClaw setup</a></h3><p>A dedicated page for businesses that specifically want OpenClaw installed, configured, and shaped properly.</p></article>
+          <article class="card"><h3><a href="./pages/solutions.html">Solutions</a></h3><p>Use cases by business problem, workflow need, and operational pain point.</p></article>
+          <article class="card"><h3><a href="./pages/pricing.html">Pricing</a></h3><p>A simpler explanation of how quoting works and what affects scope.</p></article>
+          <article class="card"><h3><a href="./pages/about.html">About</a></h3><p>Why the business exists, how the work is approached, and why it stays grounded.</p></article>
+          <article class="card"><h3><a href="./pages/contact.html">Contact</a></h3><p>A direct route to ask questions, explain what is clunky, and request a quote.</p></article>
         </div>
       </div>
     </section>
@@ -532,45 +688,40 @@
     <section id="faq">
       <div class="wrap">
         <div class="section-head">
-          <h2>OpenClaw setup FAQ</h2>
-          <p>Short answers to the obvious questions about OpenClaw business setup and using OpenClaw in real companies.</p>
+          <h2>FAQ</h2>
+          <p>Short answers to the obvious questions.</p>
         </div>
         <div class="faq">
-          <details><summary>Do I need to know loads about AI first?</summary><p>No. This is aimed at business owners who want useful AI tools without needing to become technical themselves.</p></details>
-          <details><summary>Can you set up OpenClaw on my computer?</summary><p>Yes. OpenClaw setup is one of the main services offered, so you can get a practical AI assistant running locally on your machine.</p></details>
-          <details><summary>Can you help a business use OpenClaw properly?</summary><p>Yes. The service is aimed at businesses that want OpenClaw set up around real use cases like enquiries, knowledge access, internal support, and day to day workflow help.</p></details>
-          <details><summary>Can it be set up for remote access too?</summary><p>Yes, where it makes sense. Some setups work best locally on your own computer, while others can be configured so they are easier to reach remotely. The best fit depends on your workflow and security needs.</p></details>
-          <details><summary>Is this suitable for real businesses, not just hobby users?</summary><p>Yes. The point is to shape OpenClaw and related systems around real business use, such as handling enquiries, organising information, supporting admin, and reducing repetitive tasks.</p></details>
-          <details><summary>Can this site be hosted cheaply?</summary><p>Yes. This website is a lightweight static page, which means it can be hosted very cheaply or free using services like GitHub Pages.</p></details>
+          <details><summary>Do I need to understand AI deeply first?</summary><p>No. This is aimed at business owners who want useful setup without needing to become technical themselves.</p></details>
+          <details><summary>Can you set up OpenClaw on my own machine?</summary><p>Yes. OpenClaw setup is part of the offer, including shaping it around real business use rather than leaving it as a demo install.</p></details>
+          <details><summary>Can this help with internal knowledge and admin, not just customer-facing tasks?</summary><p>Yes. A lot of the value comes from organising internal information, reducing repeat work, and improving the way the business handles routine tasks.</p></details>
+          <details><summary>Is this only for larger companies?</summary><p>No. The work is especially suited to smaller businesses that want a practical first step and do not want to be pushed into bloated systems.</p></details>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="cta">
+    <section class="cta">
       <div class="wrap">
         <div class="cta-box">
           <div>
             <div class="eyebrow">Next step</div>
-            <h2>Get a quote</h2>
-            <p class="hero-copy">If you want OpenClaw set up properly for business use, send a quick message. Whether you need installation, configuration, workflow shaping, or help making OpenClaw genuinely useful inside the business, we can start with the simplest useful option.</p>
+            <h2>Tell Jason what feels clunky now, and we can start from the simplest useful fix.</h2>
+            <p class="hero-copy">If the business is losing time to scattered enquiries, messy information, repetitive admin, or tools that never quite settle into use, this is the place to start. The quickest path is usually a short conversation and a tighter first scope.</p>
             <div class="hero-actions">
-              <a class="btn btn-whatsapp" href="https://wa.me/447306045705?text=Hi%20Jason%2C%20I%27m%20interested%20in%20Jays%20AI%20Agents" target="_blank" rel="noopener">WhatsApp Jason</a>
-              <a class="btn btn-secondary" href="tel:07306045705">Call now</a>
-              <a class="btn btn-secondary" href="#discord">Try the Discord bot</a>
-              <a class="btn btn-secondary" href="#enquiry">Private enquiry form</a>
+              <a class="btn btn-primary" href="./pages/contact.html">Contact Jason</a>
+              <a class="btn btn-secondary" href="./pages/pricing.html">See pricing approach</a>
             </div>
-            <p class="fine">Prefer email instead? Use <strong>jasonmariakieran@gmail.com</strong>. WhatsApp is the quickest way to start.</p>
+            <p class="fine">WhatsApp is usually the fastest route. Email works too if you prefer a written brief first.</p>
           </div>
           <aside class="contact-card">
             <h3>Contact details</h3>
-            <p>Speak directly with Jason about what you need, what feels clunky at the moment, and what a sensible first step looks like.</p>
+            <p>Direct with Jason. No sales maze, no bloated agency process, no pressure to overcomplicate the job.</p>
             <ul class="contact-list">
               <li><strong>WhatsApp:</strong> 07306 045705</li>
               <li><strong>Email:</strong> jasonmariakieran@gmail.com</li>
               <li><strong>Phone:</strong> 07306 045705</li>
-              <li><strong>Business:</strong> Jays AI Agents</li>
+              <li><strong>Area:</strong> UK-based support</li>
             </ul>
-            <p class="fine">Lightweight website, clearer offer, and easy to publish as a static page.</p>
           </aside>
         </div>
       </div>
@@ -578,7 +729,7 @@
   </main>
 
   <footer>
-    <div class="wrap">© Jays AI Agents. OpenClaw setup and practical AI help for businesses, delivered through a lightweight site that is easy to host and update.</div>
+    <div class="wrap">© Jays AI Agents. Private AI systems, OpenClaw setup, and practical workflow support for businesses that want less drag and better follow-through.</div>
   </footer>
 </body>
 </html>
